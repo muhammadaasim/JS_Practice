@@ -22,6 +22,14 @@ document.write(aasim);
 aasim.unshift(" Namee")
 document.write(aasim);
 let sval=aasim.shift();
-document.write(sval);
+document.write(sval+"\n");
+
+let asim={
+name:"Muhammad Asim",
+caste:"Soomro"
+}
+
+let {name,caste}=asim;
+console.log(`my name is ${name} ${caste}`);
 
 
