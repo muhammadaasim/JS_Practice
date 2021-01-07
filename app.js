@@ -32,4 +32,15 @@ caste:"Soomro"
 let {name,caste}=asim;
 console.log(`my name is ${name} ${caste}`);
 
+for(var i=0; i<aasim.length; i++)
+{
+console.log(`${i} ${aasim[i]}`);
+}
 
+for( index in aasim)
+document.write(aasim[index]);
+
+let keys=Object.keys(asim);
+console.log(keys)
+let Values=Object.values(asim);
+console.log(Values)
