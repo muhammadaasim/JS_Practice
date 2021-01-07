@@ -10,7 +10,18 @@
 // let sentence=`${namee} ${caste} is ${designation}`;
 // console.log(sentence);
 // console.log(arry.map(arr=>{arr.age}))
-let aasim=[ "Muhammad Aasim","Soomro",24];
+let aasim = ["Muhammad Aasim", "Soomro", 24];
 
-let [Name,Caste,Age]=aasim;
+let [Name, Caste, Age] = aasim;
+document.write(`My Name is ${Name} & My Caste is ${Caste} & My Age is ${Age} \n`);
+aasim.push(" pushed item in rear")
+document.write(aasim);
+let pval=aasim.pop();
+document.write(pval);
+document.write(aasim);
+aasim.unshift(" Namee")
+document.write(aasim);
+let sval=aasim.shift();
+document.write(sval);
+
 
